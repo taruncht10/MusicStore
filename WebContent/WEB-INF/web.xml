@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+	id="WebApp_ID" version="2.5">
+	<display-name>OMS_FINAL</display-name>
+	<welcome-file-list>
+		<welcome-file>CoverPage.jsp</welcome-file>
+	</welcome-file-list>
+
+
+
+	<!--<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+		xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+		id="WebApp_ID" version="2.5">
+		<display-name>OMS_FINAL</display-name>
+		<welcome-file-list>
+			<welcome-file>HomePage.jsp</welcome-file>
+		</welcome-file-list>
+
+		--><servlet>
+			<description></description>
+			<display-name>UserManagementController</display-name>
+			<servlet-name>UserManagementController</servlet-name>
+			<servlet-class>com.oms.controller.UserManagementController</servlet-class>
+		</servlet>
+		<servlet-mapping>
+			<servlet-name>UserManagementController</servlet-name>
+			<url-pattern>/UserManagementController</url-pattern>
+		</servlet-mapping>
+		<servlet>
+			<description></description>
+			<display-name>MusicController</display-name>
+			<servlet-name>MusicController</servlet-name>
+			<servlet-class>com.oms.controller.MusicController</servlet-class>
+		</servlet>
+		<servlet-mapping>
+			<servlet-name>MusicController</servlet-name>
+			<url-pattern>/MusicController</url-pattern>
+		</servlet-mapping>
+		<servlet>
+			<description></description>
+			<display-name>MusicService</display-name>
+			<servlet-name>MusicService</servlet-name>
+			<servlet-class>com.oms.service.MusicService</servlet-class>
+		</servlet>
+		<servlet-mapping>
+			<servlet-name>MusicService</servlet-name>
+			<url-pattern>/MusicService</url-pattern>
+		</servlet-mapping>
+		<servlet>
+			<description></description>
+			<display-name>OrderManagementController</display-name>
+			<servlet-name>OrderManagementController</servlet-name>
+			<servlet-class>com.oms.controller.OrderManagementController</servlet-class>
+		</servlet>
+		<servlet-mapping>
+			<servlet-name>OrderManagementController</servlet-name>
+			<url-pattern>/OrderManagementController</url-pattern>
+		</servlet-mapping>
+	</web-app>

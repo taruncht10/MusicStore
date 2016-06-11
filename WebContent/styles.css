@@ -1,0 +1,66 @@
+@CHARSET "ISO-8859-1";
+
+.body {
+	color: white;
+	background: url(Images/bg.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	position: fixed;
+}
+
+.coverbody{
+	background: url(Images/coverImage.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.content {
+	background-color: black;
+	color: white;
+	opacity: 0.8;
+	width: 50%;
+	height: auto;
+	
+}
+
+.header{
+	background: url(Images/head1.jpg) no-repeat center center fixed;
+    size:100% 100%;
+	background-image: url("Imagees/head1.jpg");
+	opacity: 0.9;
+	float: left;
+	text-shadow:5px 5px 5px yellow;
+	top: 0%;
+	
+}
+
+.contents {
+	top: 70%;
+	left: 50%;
+	background-color: black;
+	color: white;
+	opacity: 0.8;
+	width: 50%;
+	height: auto;
+}
+
+input[type=text], textarea {
+  -webkit-transition: all 0.30s ease-in-out;
+  -moz-transition: all 0.30s ease-in-out;
+  -ms-transition: all 0.30s ease-in-out;
+  -o-transition: all 0.30s ease-in-out;
+  outline: none;
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid yellow
+}
+ 
+input[type=text]:focus, textarea:focus {
+  box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid rgba(81, 203, 238, 1);
+}
